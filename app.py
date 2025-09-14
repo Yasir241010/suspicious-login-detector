@@ -5,7 +5,7 @@ import numpy as np
 import os
 import joblib
 
-MODEL_PATH = "models/login_pipeline.joblib"
+MODEL_PATH = "login_pipeline.joblib"
 
 st.set_page_config(page_title="Suspicious Login Detector", page_icon="🔐", layout="centered")
 st.title("🔐 Suspicious Login Detector (Logistic Regression)")
